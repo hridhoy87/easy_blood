@@ -1,0 +1,131 @@
+body {
+    background-color: #f8f9fa;
+    padding-top: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.form-group label {
+    font-weight: bold;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: #ffffff;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+.img-logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+    height: auto;
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-form, .register-form {
+    display: none;
+}
+.login-form.active, .register-form.active {
+    display: block;
+}
+body {
+    background-color: #f0f8ff; /* Alice Blue for a soft, light background */
+    color: #333; /* Dark grey for text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img-logo {
+    max-width: 150px;
+    height: auto;
+}
+
+h1 {
+    color: #2c3e50; /* Midnight Blue for a calm heading color */
+}
+
+a {
+    color: #2980b9; /* Belize Hole for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1abc9c; /* Turquoise for link hover effect */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #34495e; /* Wet Asphalt for label text */
+}
+
+.form-control {
+    border: 1px solid #bdc3c7; /* Silver border */
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-custom {
+    background-color: #3498db; /* Peter River for buttons */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-custom:hover {
+    background-color: #2980b9; /* Darker Peter River on hover */
+}
+
+.modal-header, .modal-footer {
+    border-bottom: none;
+    border-top: none;
+    background-color: #ecf0f1; /* Clouds for modal header/footer */
+}
+
+.modal-title {
+    color: #2c3e50; /* Same as the heading color */
+}
+
+.close {
+    color: #7f8c8d; /* Asbestos color for the close button */
+}
+
+.modal-content {
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+}
+
+.btn-secondary {
+    background-color: #95a5a6; /* Concrete color for secondary buttons */
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #7f8c8d; /* Asbestos color on hover */
+}
